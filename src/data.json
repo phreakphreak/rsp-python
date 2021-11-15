@@ -1,0 +1,1 @@
+{"games": [{"id": 1, "player1": {"name": "Player 1", "id": 1}, "player2": "Player 2", "winner": "Draw", "loser": "Draw", "score": {"player1": 0.5, "player2": 0.5}}]}

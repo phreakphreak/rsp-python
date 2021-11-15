@@ -1,0 +1,31 @@
+{
+  "players": [
+    {
+      "name": "Henry French",
+      "elo": 800,
+      "strategy": "random",
+      "next_strategy": "constant"
+    },
+    {
+      "name": "Scott Patterson",
+      "elo": 800,
+      "strategy": "random",
+      "next_strategy": "opposite"
+    },
+    {
+      "name": "Joseph McCoy",
+      "elo": 800,
+      "strategy": "random"
+    },
+    {
+      "name": "Eugene Douglas",
+      "elo": 800,
+      "strategy": "random"
+    },
+    {
+      "name": "Ora Jackson",
+      "elo": 800,
+      "strategy": "random"
+    }
+  ]
+}

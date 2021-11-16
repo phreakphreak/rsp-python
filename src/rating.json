@@ -1,3 +1,1 @@
-{
-  "rating": []
-}
+{"rating": [{"name": "Brett Lloyd", "elo": 880, "wins": 7, "losses": 1, "draws": 2}, {"name": "Joseph McCoy", "elo": 837, "wins": 4, "losses": 2, "draws": 4}, {"name": "Marie Powell", "elo": 829, "wins": 6, "losses": 4, "draws": 0}, {"name": "Ora Jackson", "elo": 824, "wins": 6, "losses": 4, "draws": 0}, {"name": "Bertha Tucker", "elo": 813, "wins": 5, "losses": 4, "draws": 1}, {"name": "Wayne Allen", "elo": 812, "wins": 4, "losses": 3, "draws": 3}, {"name": "Scott Patterson", "elo": 799, "wins": 3, "losses": 4, "draws": 3}, {"name": "Marvin Mullins", "elo": 791, "wins": 3, "losses": 4, "draws": 3}, {"name": "Brandon Bowers", "elo": 757, "wins": 2, "losses": 6, "draws": 2}, {"name": "Henry French", "elo": 746, "wins": 3, "losses": 7, "draws": 0}, {"name": "Eugene Douglas", "elo": 746, "wins": 1, "losses": 5, "draws": 4}]}

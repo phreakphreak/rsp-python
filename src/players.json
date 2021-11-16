@@ -110,8 +110,14 @@
       "strategy": "random",
       "next_strategy": "constant",
       "constant": "spock",
-      "games": [],
-      "rating": []
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
     },
     {
       "id": "8",

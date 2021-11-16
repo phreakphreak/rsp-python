@@ -1,49 +1,41 @@
 from IStrategy import IStrategy
 from Utils import *
 from Rules import *
+
+
 import random
 
 #TODO Son 11 tipos de jugadores , y son 10 rounds, cada uno de los 11 jugadores juega contra los otros 10 y esto lo repites 100 veces
 
 # * Jugar siempre lo mismo
-
-
 class ConstantStrategy(IStrategy):
-    def __init__(self,constant):
-        self.constant = constant
-    
-    def do_algorithm(self, data: list, last_game=None, constant=None) -> str:
-        self.last_game = last_game
+    def do_algorithm(self, data, last_game=None, constant=None) -> str:
         self.choice = self.constant
         return self.choice
 
 # * Jugar al azar
-
-
 class RandomStrategy(IStrategy):
     def do_algorithm(self, data, last_game=None, constant=None) -> str:
         self.choice = random.choice(data)
         return self.choice
+    def __str__(self):
+        return "random"
 
 # * Jugar siempre lo que tiró el contrario en el juego anterior
-
-
 class OppositeStrategy(IStrategy):
     def do_algorithm(self, data: list, last_game=None, constant=None) -> str:
-        self.last_game = last_game
-        self.choice = self.last_game.choice_opponent
+        self.choice = last_game["choice_opponent"]
         return self.choice
 
 
 # * Jugar lo mismo si ganó, jugar lo que tiró el contrario si perdió
 class SameIfWinStrategy(IStrategy):
     def do_algorithm(self, data: list, last_game=None, constant=None) -> str:
-        self.last_game = last_game
-        if(self.last_game.result == 'win'):
-            self.choice = self.last_game.choice_player
+        if(last_game["status"] == 'victory'):
+            self.choice = last_game['choice_player']
             return self.choice
         else:
-            self.choice = self.last_game.choice_opponent
+            self.choice = last_game["choice_opponent"]
             return self.choice
 
 # * Jugar lo mismo si perdió, jugar lo que tiró el contrario si ganó
@@ -51,11 +43,11 @@ class SameIfWinStrategy(IStrategy):
 
 class SameIfLoseStrategy(IStrategy):
     def do_algorithm(self, data: list, last_game=None, constant=None) -> str:
-        if(self.last_game.result == 'lose'):
-            self.choice = self.last_game.choice_player
+        if(last_game["status"] == 'loss'):
+            self.choice = last_game['choice_player']
             return self.choice
         else:
-            self.choice = self.last_game.choice_opponent
+            self.choice = last_game['choice_opponent']
             return self.choice
 
 # * Jugar lo que derrotaría a la elección anterior del adversario
@@ -63,7 +55,7 @@ class SameIfLoseStrategy(IStrategy):
 
 class WinOpponentPreviousChoiceStrategy(IStrategy):
     def do_algorithm(self, data: list, last_game=None, constant=None) -> str:
-        arr = RULES[self.last_game.choice_opponent]["lose"]
+        arr = RULES[last_game["choice_opponent"]]["lose"]
         self.choice = random.choice(arr)
         return self.choice
 
@@ -72,7 +64,7 @@ class WinOpponentPreviousChoiceStrategy(IStrategy):
 
 class LoseOpponentPreviousChoiceStrategy(IStrategy):
     def do_algorithm(self, data: list, last_game=None, constant=None) -> str:
-        arr = RULES[self.last_game.choice_opponent]["win"]
+        arr = RULES[last_game["choice_opponent"]]["win"]
         self.choice = random.choice(arr)
         return self.choice
 

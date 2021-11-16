@@ -13,9 +13,3 @@ def getPlayers():
         players.append(player)
     return players
 
-
-res =  getPlayers();
-
-for i in res:
-    print(i.name, i.id,i.pickOut())
-    

@@ -7,7 +7,7 @@
       "expected_score": 0.5,
       "strategy": "random",
       "next_strategy": "constant",
-      "constant": null,
+      "constant": "rock",
       "stats": {
         "wins": 0,
         "losses": 0,
@@ -40,7 +40,7 @@
       "elo": 800,
       "expected_score": 0.5,
       "strategy": "random",
-      "next_strategy": "opposite",
+      "next_strategy": "sameIfWin",
       "constant": null,
       "stats": {
         "wins": 0,
@@ -57,7 +57,7 @@
       "elo": 800,
       "expected_score": 0.5,
       "strategy": "random",
-      "next_strategy": "opposite",
+      "next_strategy": "sameIfLose",
       "constant": null,
       "stats": {
         "wins": 0,
@@ -74,7 +74,7 @@
       "elo": 800,
       "expected_score": 0.5,
       "strategy": "random",
-      "next_strategy": "opposite",
+      "next_strategy": "winOpponentPreviousChoice",
       "constant": null,
       "stats": {
         "wins": 0,
@@ -91,7 +91,7 @@
       "elo": 800,
       "expected_score": 0.5,
       "strategy": "random",
-      "next_strategy": "opposite",
+      "next_strategy": "loseOpponentPreviousChoice",
       "constant": null,
       "stats": {
         "wins": 0,
@@ -108,8 +108,8 @@
       "elo": 800,
       "expected_score": 0.5,
       "strategy": "random",
-      "next_strategy": "opposite",
-      "constant": null,
+      "next_strategy": "constant",
+      "constant": "spock",
       "games": [],
       "rating": []
     },
@@ -136,7 +136,7 @@
       "elo": 800,
       "expected_score": 0.5,
       "strategy": "random",
-      "next_strategy": "opposite",
+      "next_strategy": "patternOpponent",
       "constant": null,
       "stats": {
         "wins": 0,
@@ -153,7 +153,7 @@
       "elo": 800,
       "expected_score": 0.5,
       "strategy": "random",
-      "next_strategy": "opposite",
+      "next_strategy": "sameIfWin",
       "constant": null,
       "stats": {
         "wins": 0,
@@ -169,7 +169,7 @@
       "name": "Wayne Allen",
       "elo": 800,
       "strategy": "random",
-      "next_strategy": "opposite",
+      "next_strategy": "sameIfLose",
       "constant": null,
       "stats": {
         "wins": 0,

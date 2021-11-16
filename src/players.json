@@ -1,1 +1,190 @@
-{"players": [{"id": "1", "name": "Henry French", "elo": 748, "strategy": "random", "next_strategy": "constant", "constant": "rock", "stats": {"wins": 1, "losses": 5, "draws": 4, "total_points": 3.0, "games": [{"game_id": 1, "status": "draw", "id": "1", "name": "Henry French", "choice_player": "scissors", "choice_opponent": "scissors", "elo": 800, "expected_score": 0.5, "score": 0.5}, {"game_id": 2, "status": "loss", "id": "1", "name": "Henry French", "choice_player": "rock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.4555054269169921, "score": 0}, {"game_id": 3, "status": "loss", "id": "1", "name": "Henry French", "choice_player": "rock", "choice_opponent": "paper", "elo": 800, "expected_score": 0.4355995097595788, "score": 0}, {"game_id": 4, "status": "draw", "id": "1", "name": "Henry French", "choice_player": "rock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.45979177167625435, "score": 0.5}, {"game_id": 5, "status": "draw", "id": "1", "name": "Henry French", "choice_player": "rock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.46122190794282847, "score": 0.5}, {"game_id": 6, "status": "victory", "id": "1", "name": "Henry French", "choice_player": "rock", "choice_opponent": "scissors", "elo": 800, "expected_score": 0.5086338358210827, "score": 1}, {"game_id": 7, "status": "loss", "id": "1", "name": "Henry French", "choice_player": "rock", "choice_opponent": "paper", "elo": 800, "expected_score": 0.44126863067523897, "score": 0}, {"game_id": 8, "status": "loss", "id": "1", "name": "Henry French", "choice_player": "rock", "choice_opponent": "paper", "elo": 800, "expected_score": 0.42150324765525726, "score": 0}, {"game_id": 9, "status": "draw", "id": "1", "name": "Henry French", "choice_player": "rock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.4483764526890395, "score": 0.5}, {"game_id": 10, "status": "loss", "id": "1", "name": "Henry French", "choice_player": "rock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.4061446147638222, "score": 0}], "rating": []}}, {"id": "2", "name": "Scott Patterson", "elo": 782, "strategy": "random", "next_strategy": "opposite", "constant": null, "stats": {"wins": 3, "losses": 5, "draws": 2, "total_points": 4.0, "games": [{"game_id": 1, "status": "draw", "id": "2", "name": "Scott Patterson", "choice_player": "scissors", "choice_opponent": "scissors", "elo": 800, "expected_score": 0.5, "score": 0.5}, {"game_id": 12, "status": "loss", "id": "2", "name": "Scott Patterson", "choice_player": "scissors", "choice_opponent": "spock", "elo": 800, "expected_score": 0.43418479693076684, "score": 0}, {"game_id": 13, "status": "victory", "id": "2", "name": "Scott Patterson", "choice_player": "spock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.5057562084111449, "score": 1}, {"game_id": 14, "status": "loss", "id": "2", "name": "Scott Patterson", "choice_player": "rock", "choice_opponent": "paper", "elo": 800, "expected_score": 0.45979177167625435, "score": 0}, {"game_id": 15, "status": "loss", "id": "2", "name": "Scott Patterson", "choice_player": "paper", "choice_opponent": "scissors", "elo": 800, "expected_score": 0.4398498547680971, "score": 0}, {"game_id": 16, "status": "loss", "id": "2", "name": "Scott Patterson", "choice_player": "scissors", "choice_opponent": "spock", "elo": 800, "expected_score": 0.44126863067523897, "score": 0}, {"game_id": 17, "status": "victory", "id": "2", "name": "Scott Patterson", "choice_player": "spock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.469815319996098, "score": 1}, {"game_id": 18, "status": "loss", "id": "2", "name": "Scott Patterson", "choice_player": "rock", "choice_opponent": "paper", "elo": 800, "expected_score": 0.4047569603484281, "score": 0}, {"game_id": 19, "status": "victory", "id": "2", "name": "Scott Patterson", "choice_player": "paper", "choice_opponent": "rock", "elo": 800, "expected_score": 0.4985608882908471, "score": 1}, {"game_id": 20, "status": "draw", "id": "2", "name": "Scott Patterson", "choice_player": "rock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.4555054269169921, "score": 0.5}], "rating": []}}, {"id": "3", "name": "Joseph McCoy", "elo": 849, "strategy": "random", "next_strategy": "sameIfWin", "constant": null, "stats": {"wins": 5, "losses": 1, "draws": 4, "total_points": 7.0, "games": [{"game_id": 2, "status": "victory", "id": "3", "name": "Joseph McCoy", "choice_player": "spock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.544494573083008, "score": 1}, {"game_id": 12, "status": "victory", "id": "3", "name": "Joseph McCoy", "choice_player": "spock", "choice_opponent": "scissors", "elo": 800, "expected_score": 0.5658152030692333, "score": 1}, {"game_id": 23, "status": "victory", "id": "3", "name": "Joseph McCoy", "choice_player": "spock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.5868950233791, "score": 1}, {"game_id": 24, "status": "draw", "id": "3", "name": "Joseph McCoy", "choice_player": "spock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.5402082283237456, "score": 0.5}, {"game_id": 25, "status": "victory", "id": "3", "name": "Joseph McCoy", "choice_player": "spock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.584100958813678, "score": 1}, {"game_id": 26, "status": "draw", "id": "3", "name": "Joseph McCoy", "choice_player": "spock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.5784967523447427, "score": 0.5}, {"game_id": 27, "status": "draw", "id": "3", "name": "Joseph McCoy", "choice_player": "spock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.5756869523764296, "score": 0.5}, {"game_id": 28, "status": "loss", "id": "3", "name": "Joseph McCoy", "choice_player": "spock", "choice_opponent": "paper", "elo": 800, "expected_score": 0.48705085510713625, "score": 0}, {"game_id": 29, "status": "draw", "id": "3", "name": "Joseph McCoy", "choice_player": "paper", "choice_opponent": "paper", "elo": 800, "expected_score": 0.5728722513945045, "score": 0.5}, {"game_id": 30, "status": "victory", "id": "3", "name": "Joseph McCoy", "choice_player": "paper", "choice_opponent": "rock", "elo": 800, "expected_score": 0.5714631174083814, "score": 1}], "rating": []}}, {"id": "4", "name": "Eugene Douglas", "elo": 724, "strategy": "random", "next_strategy": "sameIfLose", "constant": null, "stats": {"wins": 1, "losses": 7, "draws": 2, "total_points": 2.0, "games": [{"game_id": 3, "status": "victory", "id": "4", "name": "Eugene Douglas", "choice_player": "paper", "choice_opponent": "rock", "elo": 800, "expected_score": 0.5644004902404213, "score": 1}, {"game_id": 13, "status": "loss", "id": "4", "name": "Eugene Douglas", "choice_player": "rock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.49424379158885506, "score": 0}, {"game_id": 23, "status": "loss", "id": "4", "name": "Eugene Douglas", "choice_player": "rock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.41310497662089996, "score": 0}, {"game_id": 34, "status": "loss", "id": "4", "name": "Eugene Douglas", "choice_player": "rock", "choice_opponent": "paper", "elo": 800, "expected_score": 0.41310497662089996, "score": 0}, {"game_id": 35, "status": "draw", "id": "4", "name": "Eugene Douglas", "choice_player": "rock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.45979177167625435, "score": 0.5}, {"game_id": 36, "status": "loss", "id": "4", "name": "Eugene Douglas", "choice_player": "rock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.41589904118632204, "score": 0}, {"game_id": 37, "status": "loss", "id": "4", "name": "Eugene Douglas", "choice_player": "rock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.40060320329074317, "score": 0}, {"game_id": 38, "status": "loss", "id": "4", "name": "Eugene Douglas", "choice_player": "rock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.32875941918416823, "score": 0}, {"game_id": 39, "status": "loss", "id": "4", "name": "Eugene Douglas", "choice_player": "rock", "choice_opponent": "paper", "elo": 800, "expected_score": 0.39096739659576046, "score": 0}, {"game_id": 40, "status": "draw", "id": "4", "name": "Eugene Douglas", "choice_player": "rock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.39784190682528303, "score": 0.5}], "rating": []}}, {"id": "5", "name": "Ora Jackson", "elo": 813, "strategy": "random", "next_strategy": "winOpponentPreviousChoice", "constant": null, "stats": {"wins": 4, "losses": 3, "draws": 3, "total_points": 5.5, "games": [{"game_id": 4, "status": "draw", "id": "5", "name": "Ora Jackson", "choice_player": "rock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.5402082283237456, "score": 0.5}, {"game_id": 14, "status": "victory", "id": "5", "name": "Ora Jackson", "choice_player": "paper", "choice_opponent": "rock", "elo": 800, "expected_score": 0.5402082283237456, "score": 1}, {"game_id": 24, "status": "draw", "id": "5", "name": "Ora Jackson", "choice_player": "spock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.45979177167625435, "score": 0.5}, {"game_id": 34, "status": "victory", "id": "5", "name": "Ora Jackson", "choice_player": "paper", "choice_opponent": "rock", "elo": 800, "expected_score": 0.5868950233791, "score": 1}, {"game_id": 45, "status": "victory", "id": "5", "name": "Ora Jackson", "choice_player": "spock", "choice_opponent": "scissors", "elo": 800, "expected_score": 0.5868950233791, "score": 1}, {"game_id": 46, "status": "loss", "id": "5", "name": "Ora Jackson", "choice_player": "rock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.49424379158885506, "score": 0}, {"game_id": 47, "status": "loss", "id": "5", "name": "Ora Jackson", "choice_player": "lizard", "choice_opponent": "rock", "elo": 800, "expected_score": 0.4741190691088309, "score": 0}, {"game_id": 48, "status": "draw", "id": "5", "name": "Ora Jackson", "choice_player": "paper", "choice_opponent": "paper", "elo": 800, "expected_score": 0.44268836623770724, "score": 0.5}, {"game_id": 49, "status": "victory", "id": "5", "name": "Ora Jackson", "choice_player": "lizard", "choice_opponent": "paper", "elo": 800, "expected_score": 0.5672288443429522, "score": 1}, {"game_id": 50, "status": "loss", "id": "5", "name": "Ora Jackson", "choice_player": "scissors", "choice_opponent": "rock", "elo": 800, "expected_score": 0.4985608882908471, "score": 0}], "rating": []}}, {"id": "6", "name": "Bertha Tucker", "elo": 809, "strategy": "random", "next_strategy": "loseOpponentPreviousChoice", "constant": null, "stats": {"wins": 4, "losses": 4, "draws": 2, "total_points": 5.0, "games": [{"game_id": 5, "status": "draw", "id": "6", "name": "Bertha Tucker", "choice_player": "rock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.5387780920571715, "score": 0.5}, {"game_id": 15, "status": "victory", "id": "6", "name": "Bertha Tucker", "choice_player": "scissors", "choice_opponent": "paper", "elo": 800, "expected_score": 0.5601501452319029, "score": 1}, {"game_id": 25, "status": "loss", "id": "6", "name": "Bertha Tucker", "choice_player": "rock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.41589904118632204, "score": 0}, {"game_id": 35, "status": "draw", "id": "6", "name": "Bertha Tucker", "choice_player": "rock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.5402082283237456, "score": 0.5}, {"game_id": 45, "status": "loss", "id": "6", "name": "Bertha Tucker", "choice_player": "scissors", "choice_opponent": "spock", "elo": 800, "expected_score": 0.41310497662089996, "score": 0}, {"game_id": 56, "status": "loss", "id": "6", "name": "Bertha Tucker", "choice_player": "scissors", "choice_opponent": "spock", "elo": 800, "expected_score": 0.3937121762145718, "score": 0}, {"game_id": 57, "status": "victory", "id": "6", "name": "Bertha Tucker", "choice_player": "scissors", "choice_opponent": "lizard", "elo": 800, "expected_score": 0.46838170217189273, "score": 1}, {"game_id": 58, "status": "victory", "id": "6", "name": "Bertha Tucker", "choice_player": "paper", "choice_opponent": "spock", "elo": 800, "expected_score": 0.46122190794282847, "score": 1}, {"game_id": 59, "status": "victory", "id": "6", "name": "Bertha Tucker", "choice_player": "rock", "choice_opponent": "lizard", "elo": 800, "expected_score": 0.5798997603578815, "score": 1}, {"game_id": 60, "status": "loss", "id": "6", "name": "Bertha Tucker", "choice_player": "paper", "choice_opponent": "scissors", "elo": 800, "expected_score": 0.46838170217189273, "score": 0}], "rating": []}}, {"id": "7", "name": "Marie Powell", "elo": 842, "strategy": "random", "next_strategy": "constant", "constant": "spock", "stats": {"wins": 6, "losses": 3, "draws": 1, "total_points": 6.5, "games": [{"game_id": 6, "status": "loss", "id": "7", "name": "Marie Powell", "choice_player": "scissors", "choice_opponent": "rock", "elo": 800, "expected_score": 0.4913661641789174, "score": 0}, {"game_id": 16, "status": "victory", "id": "7", "name": "Marie Powell", "choice_player": "spock", "choice_opponent": "scissors", "elo": 800, "expected_score": 0.558731369324761, "score": 1}, {"game_id": 26, "status": "draw", "id": "7", "name": "Marie Powell", "choice_player": "spock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.42150324765525726, "score": 0.5}, {"game_id": 36, "status": "victory", "id": "7", "name": "Marie Powell", "choice_player": "spock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.584100958813678, "score": 1}, {"game_id": 46, "status": "victory", "id": "7", "name": "Marie Powell", "choice_player": "spock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.5057562084111449, "score": 1}, {"game_id": 56, "status": "victory", "id": "7", "name": "Marie Powell", "choice_player": "spock", "choice_opponent": "scissors", "elo": 800, "expected_score": 0.6062878237854281, "score": 1}, {"game_id": 67, "status": "victory", "id": "7", "name": "Marie Powell", "choice_player": "spock", "choice_opponent": "scissors", "elo": 800, "expected_score": 0.5882899718631628, "score": 1}, {"game_id": 68, "status": "loss", "id": "7", "name": "Marie Powell", "choice_player": "spock", "choice_opponent": "paper", "elo": 800, "expected_score": 0.48705085510713625, "score": 0}, {"game_id": 69, "status": "victory", "id": "7", "name": "Marie Powell", "choice_player": "spock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.641390111955618, "score": 1}, {"game_id": 70, "status": "loss", "id": "7", "name": "Marie Powell", "choice_player": "spock", "choice_opponent": "paper", "elo": 800, "expected_score": 0.4913661641789174, "score": 0}], "rating": []}}, {"id": "8", "name": "Marvin Mullins", "elo": 802, "strategy": "random", "next_strategy": "opposite", "constant": null, "stats": {"wins": 3, "losses": 3, "draws": 4, "total_points": 5.0, "games": [{"game_id": 7, "status": "victory", "id": "8", "name": "Marvin Mullins", "choice_player": "paper", "choice_opponent": "rock", "elo": 800, "expected_score": 0.558731369324761, "score": 1}, {"game_id": 17, "status": "loss", "id": "8", "name": "Marvin Mullins", "choice_player": "rock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.5301846800039021, "score": 0}, {"game_id": 27, "status": "draw", "id": "8", "name": "Marvin Mullins", "choice_player": "spock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.4243130476235704, "score": 0.5}, {"game_id": 37, "status": "victory", "id": "8", "name": "Marvin Mullins", "choice_player": "spock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.5993967967092568, "score": 1}, {"game_id": 47, "status": "victory", "id": "8", "name": "Marvin Mullins", "choice_player": "rock", "choice_opponent": "lizard", "elo": 800, "expected_score": 0.525880930891169, "score": 1}, {"game_id": 57, "status": "loss", "id": "8", "name": "Marvin Mullins", "choice_player": "lizard", "choice_opponent": "scissors", "elo": 800, "expected_score": 0.5316182978281073, "score": 0}, {"game_id": 67, "status": "loss", "id": "8", "name": "Marvin Mullins", "choice_player": "scissors", "choice_opponent": "spock", "elo": 800, "expected_score": 0.41171002813683716, "score": 0}, {"game_id": 78, "status": "draw", "id": "8", "name": "Marvin Mullins", "choice_player": "spock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.4285368825916186, "score": 0.5}, {"game_id": 79, "status": "draw", "id": "8", "name": "Marvin Mullins", "choice_player": "spock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.558731369324761, "score": 0.5}, {"game_id": 80, "status": "draw", "id": "8", "name": "Marvin Mullins", "choice_player": "spock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.43701527189640416, "score": 0.5}], "rating": []}}, {"id": "9", "name": "Brett Lloyd", "elo": 879, "strategy": "random", "next_strategy": "patternOpponent", "constant": null, "stats": {"wins": 7, "losses": 1, "draws": 2, "total_points": 8.0, "games": [{"game_id": 8, "status": "victory", "id": "9", "name": "Brett Lloyd", "choice_player": "paper", "choice_opponent": "rock", "elo": 800, "expected_score": 0.5784967523447427, "score": 1}, {"game_id": 18, "status": "victory", "id": "9", "name": "Brett Lloyd", "choice_player": "paper", "choice_opponent": "rock", "elo": 800, "expected_score": 0.5952430396515719, "score": 1}, {"game_id": 28, "status": "victory", "id": "9", "name": "Brett Lloyd", "choice_player": "paper", "choice_opponent": "spock", "elo": 800, "expected_score": 0.5129491448928637, "score": 1}, {"game_id": 38, "status": "victory", "id": "9", "name": "Brett Lloyd", "choice_player": "spock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.6712405808158318, "score": 1}, {"game_id": 48, "status": "draw", "id": "9", "name": "Brett Lloyd", "choice_player": "paper", "choice_opponent": "paper", "elo": 800, "expected_score": 0.5573116337622928, "score": 0.5}, {"game_id": 58, "status": "loss", "id": "9", "name": "Brett Lloyd", "choice_player": "spock", "choice_opponent": "paper", "elo": 800, "expected_score": 0.5387780920571715, "score": 0}, {"game_id": 68, "status": "victory", "id": "9", "name": "Brett Lloyd", "choice_player": "paper", "choice_opponent": "spock", "elo": 800, "expected_score": 0.5129491448928637, "score": 1}, {"game_id": 78, "status": "draw", "id": "9", "name": "Brett Lloyd", "choice_player": "spock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.5714631174083814, "score": 0.5}, {"game_id": 89, "status": "victory", "id": "9", "name": "Brett Lloyd", "choice_player": "paper", "choice_opponent": "spock", "elo": 800, "expected_score": 0.6609990912463583, "score": 1}, {"game_id": 90, "status": "victory", "id": "9", "name": "Brett Lloyd", "choice_player": "paper", "choice_opponent": "spock", "elo": 800, "expected_score": 0.5672288443429522, "score": 1}], "rating": []}}, {"id": "10", "name": "Brandon Bowers", "elo": 768, "strategy": "random", "next_strategy": "sameIfWin", "constant": null, "stats": {"wins": 2, "losses": 5, "draws": 3, "total_points": 3.5, "games": [{"game_id": 9, "status": "draw", "id": "10", "name": "Brandon Bowers", "choice_player": "rock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.5516235473109605, "score": 0.5}, {"game_id": 19, "status": "loss", "id": "10", "name": "Brandon Bowers", "choice_player": "rock", "choice_opponent": "paper", "elo": 800, "expected_score": 0.5014391117091528, "score": 0}, {"game_id": 29, "status": "draw", "id": "10", "name": "Brandon Bowers", "choice_player": "paper", "choice_opponent": "paper", "elo": 800, "expected_score": 0.4271277486054956, "score": 0.5}, {"game_id": 39, "status": "victory", "id": "10", "name": "Brandon Bowers", "choice_player": "paper", "choice_opponent": "rock", "elo": 800, "expected_score": 0.6090326034042396, "score": 1}, {"game_id": 49, "status": "loss", "id": "10", "name": "Brandon Bowers", "choice_player": "paper", "choice_opponent": "lizard", "elo": 800, "expected_score": 0.4327711556570478, "score": 0}, {"game_id": 59, "status": "loss", "id": "10", "name": "Brandon Bowers", "choice_player": "lizard", "choice_opponent": "rock", "elo": 800, "expected_score": 0.42010023964211857, "score": 0}, {"game_id": 69, "status": "loss", "id": "10", "name": "Brandon Bowers", "choice_player": "rock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.35860988804438204, "score": 0}, {"game_id": 79, "status": "draw", "id": "10", "name": "Brandon Bowers", "choice_player": "spock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.44126863067523897, "score": 0.5}, {"game_id": 89, "status": "loss", "id": "10", "name": "Brandon Bowers", "choice_player": "spock", "choice_opponent": "paper", "elo": 800, "expected_score": 0.33900090875364175, "score": 0}, {"game_id": 100, "status": "victory", "id": "10", "name": "Brandon Bowers", "choice_player": "paper", "choice_opponent": "spock", "elo": 800, "expected_score": 0.4355995097595788, "score": 1}], "rating": []}}, {"id": "11", "name": "Wayne Allen", "elo": 813, "strategy": "random", "next_strategy": "sameIfLose", "constant": null, "stats": {"wins": 4, "losses": 3, "draws": 3, "total_points": 5.5, "games": [{"game_id": 10, "status": "victory", "id": "11", "name": "Wayne Allen", "choice_player": "spock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.5938553852361779, "score": 1}, {"game_id": 20, "status": "draw", "id": "11", "name": "Wayne Allen", "choice_player": "rock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.544494573083008, "score": 0.5}, {"game_id": 30, "status": "loss", "id": "11", "name": "Wayne Allen", "choice_player": "rock", "choice_opponent": "paper", "elo": 800, "expected_score": 0.4285368825916186, "score": 0}, {"game_id": 40, "status": "draw", "id": "11", "name": "Wayne Allen", "choice_player": "rock", "choice_opponent": "rock", "elo": 800, "expected_score": 0.6021580931747169, "score": 0.5}, {"game_id": 50, "status": "victory", "id": "11", "name": "Wayne Allen", "choice_player": "rock", "choice_opponent": "scissors", "elo": 800, "expected_score": 0.5014391117091528, "score": 1}, {"game_id": 60, "status": "victory", "id": "11", "name": "Wayne Allen", "choice_player": "scissors", "choice_opponent": "paper", "elo": 800, "expected_score": 0.5316182978281073, "score": 1}, {"game_id": 70, "status": "victory", "id": "11", "name": "Wayne Allen", "choice_player": "paper", "choice_opponent": "spock", "elo": 800, "expected_score": 0.5086338358210827, "score": 1}, {"game_id": 80, "status": "draw", "id": "11", "name": "Wayne Allen", "choice_player": "spock", "choice_opponent": "spock", "elo": 800, "expected_score": 0.5629847281035958, "score": 0.5}, {"game_id": 90, "status": "loss", "id": "11", "name": "Wayne Allen", "choice_player": "spock", "choice_opponent": "paper", "elo": 800, "expected_score": 0.4327711556570478, "score": 0}, {"game_id": 100, "status": "loss", "id": "11", "name": "Wayne Allen", "choice_player": "spock", "choice_opponent": "paper", "elo": 800, "expected_score": 0.5644004902404213, "score": 0}], "rating": []}}]}
+{
+  "players": [
+    {
+      "id": "1",
+      "name": "Henry French",
+      "elo": 800,
+      "expected_score": 0.5,
+      "strategy": "random",
+      "next_strategy": "constant",
+      "constant": "rock",
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
+    },
+    {
+      "id": "2",
+      "name": "Scott Patterson",
+      "elo": 800,
+      "expected_score": 0.5,
+      "strategy": "random",
+      "next_strategy": "opposite",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
+    },
+    {
+      "id": "3",
+      "name": "Joseph McCoy",
+      "elo": 800,
+      "expected_score": 0.5,
+      "strategy": "random",
+      "next_strategy": "sameIfWin",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
+    },
+    {
+      "id": "4",
+      "name": "Eugene Douglas",
+      "elo": 800,
+      "expected_score": 0.5,
+      "strategy": "random",
+      "next_strategy": "sameIfLose",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
+    },
+    {
+      "id": "5",
+      "name": "Ora Jackson",
+      "elo": 800,
+      "expected_score": 0.5,
+      "strategy": "random",
+      "next_strategy": "winOpponentPreviousChoice",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
+    },
+    {
+      "id": "6",
+      "name": "Bertha Tucker",
+      "elo": 800,
+      "expected_score": 0.5,
+      "strategy": "random",
+      "next_strategy": "loseOpponentPreviousChoice",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
+    },
+    {
+      "id": "7",
+      "name": "Marie Powell",
+      "elo": 800,
+      "expected_score": 0.5,
+      "strategy": "random",
+      "next_strategy": "constant",
+      "constant": "spock",
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
+    },
+    {
+      "id": "8",
+      "name": "Marvin Mullins",
+      "elo": 800,
+      "expected_score": 0.5,
+      "strategy": "random",
+      "next_strategy": "opposite",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
+    },
+    {
+      "id": "9",
+      "name": "Brett Lloyd",
+      "elo": 800,
+      "expected_score": 0.5,
+      "strategy": "random",
+      "next_strategy": "patternOpponent",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
+    },
+    {
+      "id": "10",
+      "name": "Brandon Bowers",
+      "elo": 800,
+      "expected_score": 0.5,
+      "strategy": "random",
+      "next_strategy": "sameIfWin",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
+    },
+    {
+      "id": "11",
+      "name": "Wayne Allen",
+      "elo": 800,
+      "strategy": "random",
+      "next_strategy": "sameIfLose",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
+    }
+  ]
+}

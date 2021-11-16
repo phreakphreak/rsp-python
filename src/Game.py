@@ -3,8 +3,7 @@
 from Player import *
 from Rules import *
 from Utils import *
-data = readFile()
-playersData =readFile("src/players.json")
+
 
 class Game:
     def __init__(self, number, player1: Player, player2: Player):
@@ -98,25 +97,20 @@ class Game:
     def Play(self):
         self.Start()
 
-        global data
-        global playersData
-
+        data = readFile("src/players.json")
         self.result = self.getResult()
 
         self.player1.stats.games.append(self.result["player1"])
         self.player2.stats.games.append(self.result["player2"])
-        P1 = find(lambda x: x["id"] == self.player1.id, playersData["players"])
-        P2 = find(lambda x: x["id"] == self.player2.id, playersData["players"])
-        index1 = playersData["players"].index(P1)
-        index2 = playersData["players"].index(P2)
+        P1 = find(lambda x: x["id"] == self.player1.id, data["players"])
+        P2 = find(lambda x: x["id"] == self.player2.id, data["players"])
+        index1 = data["players"].index(P1)
+        index2 = data["players"].index(P2)
 
-        playersData["players"][index2] = self.player2.toJSON()
-        playersData["players"][index1] = self.player1.toJSON()
-
-        data["games"].append(self.result)
-        writeFile(data)
-        writeFile( playersData,"src/players.json")
-        return self.getWinner()
+        data["players"][index2] = self.player2.toJSON()
+        data["players"][index1] = self.player1.toJSON()
+        writeFile(data, "src/players.json")
+        return self.result
 
     def getStatus(self, player):
         if(self.winner is not None):
@@ -157,7 +151,7 @@ class Game:
                 "name": self.player2.name,
                 "choice_player": self.choice_player2,
                 "choice_opponent": self.choice_player1,
-                "elo":self.player2.old_elo,
+                "elo": self.player2.old_elo,
                 "expected_score": self.calculate_expected_score(self.player2.elo, self.player1.elo),
                 "score": self.getScore()["player2"]
             },
@@ -165,4 +159,3 @@ class Game:
             "loser": self.getLoser(),
             "score": self.getScore()
         }
-

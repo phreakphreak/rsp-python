@@ -5,9 +5,9 @@ from Player import *
 from Strategies import *
 from Game import *
 
-
-
-
+gamesData = readFile();
+playersData = readFile("src/players.json");
+ratingPlayers = readFile("src/rating.json");
 class Tournament:
     def __init__(self, name="RSPLP", rounds=10, matches=[]):
         self.name = name
@@ -63,8 +63,9 @@ class Tournament:
         return True
 
     def Start(self):
-        for i in self.matches:
-            i.Play()
+        for match in self.matches:
+            result = match.Play()
+            self.addGame(result)
 
     def getRating(self):
         dataPlayers = readFile("src/players.json")
@@ -81,6 +82,15 @@ class Tournament:
         ratingData = readFile("src/rating.json")
         ratingData["rating"] = rating
         writeFile(ratingData, "src/rating.json")
+
+    def addGame(self, game_result):
+        data = readFile()
+        data["games"].append(game_result)
+        writeFile(data, "src/data.json")
+        return True
+    
+    
+
 
 tornament = Tournament()
 tornament.createVersus()

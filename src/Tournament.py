@@ -1,5 +1,5 @@
 
-
+import pandas as pd
 from Utils import *
 from Player import *
 from Strategies import *
@@ -97,3 +97,24 @@ tornament.createVersus()
 tornament.Start()
 
 tornament.getRating()
+
+
+
+def showRating():
+    rating = readFile("src/rating.json")
+    elo = []
+    wins = []
+    losses = []
+    name = []
+    draws = []
+    for i in rating["rating"]:
+        elo.append(i["elo"])
+        wins.append(i["wins"])
+        losses.append(i["losses"])
+        name.append(i["name"])
+        draws.append(i["draws"])
+    df = pd.DataFrame.from_dict({"name": name, "elo": elo, "wins": wins, "losses": losses, "draws": draws})
+    
+    print(df)
+
+showRating()

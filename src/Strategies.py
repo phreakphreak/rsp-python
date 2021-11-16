@@ -9,28 +9,27 @@ import random
 
 # * Jugar siempre lo mismo
 class ConstantStrategy(IStrategy):
-    def do_algorithm(self, data, last_game=None, constant=None) -> str:
-        self.choice = self.constant
+    def do_algorithm(self, data, last_game, constant) -> str:
+        self.choice = constant
         return self.choice
 
 # * Jugar al azar
 class RandomStrategy(IStrategy):
-    def do_algorithm(self, data, last_game=None, constant=None) -> str:
+    def do_algorithm(self, data, last_game, constant) -> str:
         self.choice = random.choice(data)
         return self.choice
-    def __str__(self):
-        return "random"
+
 
 # * Jugar siempre lo que tiró el contrario en el juego anterior
 class OppositeStrategy(IStrategy):
-    def do_algorithm(self, data: list, last_game=None, constant=None) -> str:
+    def do_algorithm(self, data, last_game, constant) -> str:
         self.choice = last_game["choice_opponent"]
         return self.choice
 
 
 # * Jugar lo mismo si ganó, jugar lo que tiró el contrario si perdió
 class SameIfWinStrategy(IStrategy):
-    def do_algorithm(self, data: list, last_game=None, constant=None) -> str:
+    def do_algorithm(self, data, last_game, constant) -> str:
         if(last_game["status"] == 'victory'):
             self.choice = last_game['choice_player']
             return self.choice
@@ -73,7 +72,7 @@ class LoseOpponentPreviousChoiceStrategy(IStrategy):
 
 
 class PatternOpponentStrategy(IStrategy):
-    def gen(pattern_opponent):
+    def gen(self,pattern_opponent):
         def init():
             return 0
         i = init()
@@ -103,7 +102,7 @@ class PatternOpponentStrategy(IStrategy):
 STRATEGIES = {
     "constant": ConstantStrategy,
     "random":RandomStrategy,
-    "oppsite":OppositeStrategy,
+    "opposite":OppositeStrategy,
     "sameIfWin":SameIfWinStrategy,
     "sameIfLose":SameIfLoseStrategy,
     "winOpponentPreviousChoice":WinOpponentPreviousChoiceStrategy,
@@ -111,37 +110,3 @@ STRATEGIES = {
     "patternOpponent":PatternOpponentStrategy
 }
 
-
-# def gen(pattern_opponent):
-
-#     def init():
-#         return 0
-#     i = init()
-
-#     while True:
-
-#         val = (yield pattern_opponent[i])
-#         if val == "restart":
-#             i = init()
-#         else:
-#             i += 1
-
-
-# pattern_opponent = ["RK", "SC", "PA", "LZ", "SP"]
-# g = gen(pattern_opponent)
-
-# last = ""
-
-
-# def test():
-#     global last
-#     value = ""
-#     if(last == pattern_opponent[len(pattern_opponent)-1]):
-#         value = g.send("restart")
-#     else:
-#         value = g.__next__()
-#     x = find(lambda x: RULES[x]["symbol"] == value, RULES)
-#     choice = random.choice(RULES[x]["lose"])
-#     last = value
-#     print(choice)
-#     return choice

@@ -1,8 +1,6 @@
 import json
 
 
-
-
 def find(pred, iterable):
     for element in iterable:
         if pred(element):

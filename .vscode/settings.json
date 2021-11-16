@@ -1,5 +1,5 @@
 {
   "python.formatting.provider": "autopep8",
-  "cSpell.words": ["bgcolor", "blit", "Nahin", "pygame", "RPSLS"],
+  "cSpell.words": ["bgcolor", "blit", "Nahin", "pygame", "RPSLS", "RSPLP"],
   "cSpell.language": "en,es-ES"
 }

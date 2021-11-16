@@ -1,31 +1,184 @@
 {
   "players": [
     {
+      "id": "1",
       "name": "Henry French",
       "elo": 800,
+      "expected_score": 0.5,
       "strategy": "random",
-      "next_strategy": "constant"
+      "next_strategy": "constant",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
     },
     {
+      "id": "2",
       "name": "Scott Patterson",
       "elo": 800,
+      "expected_score": 0.5,
       "strategy": "random",
-      "next_strategy": "opposite"
+      "next_strategy": "opposite",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
     },
     {
+      "id": "3",
       "name": "Joseph McCoy",
       "elo": 800,
-      "strategy": "random"
+      "expected_score": 0.5,
+      "strategy": "random",
+      "next_strategy": "opposite",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
     },
     {
+      "id": "4",
       "name": "Eugene Douglas",
       "elo": 800,
-      "strategy": "random"
+      "expected_score": 0.5,
+      "strategy": "random",
+      "next_strategy": "opposite",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
     },
     {
+      "id": "5",
       "name": "Ora Jackson",
       "elo": 800,
-      "strategy": "random"
+      "expected_score": 0.5,
+      "strategy": "random",
+      "next_strategy": "opposite",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
+    },
+    {
+      "id": "6",
+      "name": "Bertha Tucker",
+      "elo": 800,
+      "expected_score": 0.5,
+      "strategy": "random",
+      "next_strategy": "opposite",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
+    },
+    {
+      "id": "7",
+      "name": "Marie Powell",
+      "elo": 800,
+      "expected_score": 0.5,
+      "strategy": "random",
+      "next_strategy": "opposite",
+      "constant": null,
+      "games": [],
+      "rating": []
+    },
+    {
+      "id": "8",
+      "name": "Marvin Mullins",
+      "elo": 800,
+      "expected_score": 0.5,
+      "strategy": "random",
+      "next_strategy": "opposite",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
+    },
+    {
+      "id": "9",
+      "name": "Brett Lloyd",
+      "elo": 800,
+      "expected_score": 0.5,
+      "strategy": "random",
+      "next_strategy": "opposite",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
+    },
+    {
+      "id": "10",
+      "name": "Brandon Bowers",
+      "elo": 800,
+      "expected_score": 0.5,
+      "strategy": "random",
+      "next_strategy": "opposite",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
+    },
+    {
+      "id": "11",
+      "name": "Wayne Allen",
+      "elo": 800,
+      "strategy": "random",
+      "next_strategy": "opposite",
+      "constant": null,
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0,
+        "total_points": 0,
+        "games": [],
+        "rating": []
+      }
     }
   ]
 }
